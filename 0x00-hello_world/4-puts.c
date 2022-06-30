@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* using puts instead of printf */
+/**
+ * main - Entry point
+ * Description: code to print using puts command
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -7,5 +11,5 @@ int main(void)
 
 	puts(string);
 
-	return 0;
+	return (0);
 }
