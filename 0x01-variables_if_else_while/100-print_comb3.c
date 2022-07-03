@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-<<<<<<< HEAD
-	int i;
-	int j;
+	int i, j;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -23,25 +21,6 @@ int main(void)
 		putchar(' ');
 	}
 	}
-=======
-	int i = 0, j = 1;
-
-	while (i < 10)
-	{
-		while (j < 10)
-		if (i >= j)
-	{
-		putchar(i + '0');
-		putchar(j + '0');
-		j++;
-	}
-		i++;
-	}
-	if ((i != 8) && (j != 9))
-	{
-		putchar(',');
-		putchar(' ');
->>>>>>> ad032d0ab255c0724757582914d196b9f43f542b
 	}
 	putchar('\n');
 	return (0);
