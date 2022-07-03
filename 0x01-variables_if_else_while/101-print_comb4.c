@@ -4,7 +4,7 @@
  * Description: program to print all different sombinations of 3 digits
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int i;
 	int j;
@@ -16,7 +16,7 @@ int main()
 	{
 	for (k = 0; k < 10; k++)
 	{
-	if ((i < j )&&(j < k))
+	if ((i < j) && (j < k))
 	{
 	putchar(i + '0');
 	putchar(j + '0');
