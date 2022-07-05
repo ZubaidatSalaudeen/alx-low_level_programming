@@ -7,7 +7,7 @@
 void print_to_98(int n)
 {
 	scanf("%d", &n);
-	for (n; n <= 98; n++)
+	while (n <= 98)
 	{
 	if (n < 10)
 	{
@@ -22,8 +22,9 @@ void print_to_98(int n)
 	_putchar(',');
 	_putchar(' ');
 	}
+	n++;
 	}
-	for (n; n >= 98; n++)
+	while (n >= 98)
 	{
 	if (n < 10)
 	{
@@ -38,5 +39,6 @@ void print_to_98(int n)
 	_putchar(',');
 	_putchar(' ');
 	}
+	n++;
 	}
 }
