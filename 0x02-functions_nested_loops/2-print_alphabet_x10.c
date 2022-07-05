@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  * Description: Program to print alphabets 10 times
- * Return: 0 (Successful)
+ * Return: nothing
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int j;
 	char ch;
@@ -15,5 +15,4 @@ int main(void)
 	_putchar(ch);
 	_putchar('\n');
 	}
-	return (0);
 }
