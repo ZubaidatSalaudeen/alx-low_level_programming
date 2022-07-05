@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  * Return: 0 if successful
  */
 void print_alphabet(void)
@@ -10,6 +10,5 @@ void print_alphabet(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 		_putchar(ch);
 	_putchar('\n');
-	return;
 }
 
