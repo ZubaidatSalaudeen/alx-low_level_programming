@@ -19,7 +19,7 @@ void times_table(void)
 	_putchar(k + '0');
 	if (j != 9)
 	_putchar(',');
-	if (i == 0)
+	if ((i == 0) && (j != 9))
 	{
 	_putchar(' ');
 	_putchar(' ');
