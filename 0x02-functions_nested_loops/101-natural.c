@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - list all natural numbers that are multiples of 3 and 5 and less than 1024
  * Return: 0 for Success
