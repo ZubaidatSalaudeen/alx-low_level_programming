@@ -1,5 +1,6 @@
 #include "main.h"
-/** main - program to test funtion that prints +ve or -ve integer
+/**
+ * main - program to test funtion that prints +ve or -ve integer
  * Return: 0
  */
 
