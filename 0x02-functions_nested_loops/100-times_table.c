@@ -42,7 +42,7 @@ void print_times_table(int n)
 	_putchar((k / 10) + '0');
 	_putchar((k % 10) + '0');
 	if (j != n)
-	_putchar(' ');
+	_putchar(',');
 	}
 	else
 	{
@@ -51,7 +51,7 @@ void print_times_table(int n)
 	_putchar(((k / 10) % 10) + '0');
 	_putchar((k % 10) + '0');
 	if (j != n)
-	_putchar(' ');
+	_putchar(',');
 	}
 	}
 	_putchar('\n');
