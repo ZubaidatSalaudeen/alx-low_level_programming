@@ -6,6 +6,7 @@
  * src does not need to be terminated if it contains n or more bytes
  * @src: the source string
  * @dest: the destination string
+ * @n: number of bytes to be used from src
  * Return: dest
  */
 
@@ -17,5 +18,5 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	for (j = 0; j < n; j++, i++)
 		dest[i] = src[j];
-	return(dest);
+	return (dest);
 }
