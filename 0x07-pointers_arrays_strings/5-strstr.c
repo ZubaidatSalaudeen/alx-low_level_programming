@@ -47,5 +47,6 @@ char *_strstr(char *haystack, char *needle)
 	if (found)
 	{
 		return (start);
+	}
 		return (NULL);
 }
