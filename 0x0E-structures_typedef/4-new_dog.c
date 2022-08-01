@@ -31,7 +31,7 @@ char *_strcpy(char *s1, char *s2)
 	return (s1);
 }
 /**
- * dog_t - creates a new dog
+ * new_dog - creates a new dog
  * @name: The dog's name
  * @age: its age
  * @owner: its owner
@@ -50,14 +50,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (bingo->name == NULL)
 	{
 		free(bingo);
-		return(NULL);
+		return (NULL);
 	}
 	bingo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if (bingo->owner == NULL)
 	{
 		free(bingo->name);
 		free(bingo);
-		return(NULL);
+		return (NULL);
 	}
 	bingo->name = _strcpy(bingo->name, name);
 	bingo->age = age;
