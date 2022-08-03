@@ -3,7 +3,7 @@
  * int_index - searches for an integer
  * @array: The array
  * @size: Tge number of elements in the array
- * cmp - a pointer to tge function to be used to compare variables
+ * @cmp - a pointer to tge function to be used to compare variables
  * Return: 0 or -1 depending on condition
  */
 int int_index(int *array, int size, int (*cmp)(int))
